@@ -1,0 +1,9 @@
+:root{
+    --body: #02242D;
+    --text: #D3E2E9;
+    --hover: #194D5B;
+}
+
+h1, h2, h3, h4, p, li, span{
+    color: var(--text);
+}
