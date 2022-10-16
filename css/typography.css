@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url("/content/fonts/exo_2/Exo2-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url("/content/fonts/dosis.bold.ttf");
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Dosis';
+}
+
+p, ul{
+    font-family: 'Exo2';
+}
+
+
+h3{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h3{
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    h3{
+        font-size: 20px;
+    }  
+  }
